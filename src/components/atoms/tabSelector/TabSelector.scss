@@ -1,0 +1,6 @@
+.tag {
+  opacity: 0.3;
+  &.active-tag {
+    opacity: 1;
+  }
+}

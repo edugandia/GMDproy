@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "title": "Inmuebles",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, illo. Quaerat aut nobis, libero, culpa necessitatibus ipsam accusamus eveniet voluptatem consequuntur, voluptatibus laborum veritatis pariatur esse sint officiis eaque totam!",
+    "image": "./images/photos/product1.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Inmuebles en rentabilidad",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, illo. Quaerat aut nobis, libero, culpa necessitatibus ipsam accusamus eveniet voluptatem consequuntur, voluptatibus laborum veritatis pariatur esse sint officiis eaque totam!",
+    "image": "./images/photos/product1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Asesoramiento",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, illo. Quaerat aut nobis, libero, culpa necessitatibus ipsam accusamus eveniet voluptatem consequuntur, voluptatibus laborum veritatis pariatur esse sint officiis eaque totam!",
+    "image": "./images/photos/product1.jpg"
+  }
+]

@@ -3,8 +3,8 @@
     "id": 0,
     "title": "Zonas",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, illo. Quaerat aut nobis, libero, culpa necessitatibus ipsam accusamus eveniet voluptatem consequuntur, voluptatibus laborum veritatis pariatur esse sint officiis eaque totam!",
-    "hasDownload": true,
-    "downloadUrl": "./downloads/postal1.pdf"
+    "hasDownload": false,
+    "downloadUrl": ""
   },
   {
     "id": 1,

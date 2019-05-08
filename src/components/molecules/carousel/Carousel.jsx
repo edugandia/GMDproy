@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import "./Carousel.scss";
 import NavigationArrows from "../../atoms/navigationArrows";
 import NavigationPoints from "../../atoms/navigationPoints";
+import DownloadIcon from "../../atoms/downloadIcon";
 
 const Carousel = props => {
   const [position, setPosition] = useState(0);
+  const infoJSON = props.infoJSON;
   const lastPosition = props.infoJSON.length - 1;
 
   const incrementPosition = () => {
@@ -40,14 +42,17 @@ const Carousel = props => {
         decrementPosition={decrementPosition}
       />
       <div className="text">
-        <h3>{props.infoJSON[position].title}</h3>
-        <p>{props.infoJSON[position].description}</p>
+        <h3>{infoJSON[position].title}</h3>
+        <p>{infoJSON[position].description}</p>
       </div>
       <NavigationPoints
         position={position}
         lastPosition={lastPosition}
         handlePosition={handlePosition}
       />
+      {infoJSON[position].hasDownload && (
+        <DownloadIcon linkDownload={infoJSON[position].downloadUrl} />
+      )}
     </div>
   );
 };

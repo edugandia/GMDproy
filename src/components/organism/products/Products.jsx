@@ -5,7 +5,7 @@ import ProductsJSON from "../../../data/infoProducts";
 
 const Products = () => {
   return (
-    <section>
+    <section id="products-container">
       <div className="title">
         <h2>¿Qué ofrecemos?</h2>
       </div>

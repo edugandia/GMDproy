@@ -16,32 +16,35 @@ const NavBar = () => {
 
   return (
     <nav className="navbar-container">
-      <div className="logo-container">
-        <img src="./images/logo-icon.png" alt="logo" />
-      </div>
-      <div className="links-container">
-        {navBarInfo.map((info, i) => (
-          <NavLinks
-            title={info.title}
-            scrollLink={info.scrollLink}
-            isMobile={false}
-            key={i}
-          />
-        ))}
-      </div>
-      <div onClick={isOpenHandle} className="dropdown-button">
-        <img src="./images/menu.png" alt="menu-icon" />
-      </div>
-      {isOpen && (
-        <div className="dropdown-mobile">
+      <div className="navbar-box">
+        <div className="logo-container">
+          <img src="./images/logogomad.png" alt="logo" />
+        </div>
+        <div className="links-container">
           {navBarInfo.map((info, i) => (
             <NavLinks
               title={info.title}
               scrollLink={info.scrollLink}
-              isMobile={true}
-              isOpenHandle={isOpenHandle}
+              isMobile={false}
               key={i}
             />
+          ))}
+        </div>
+        <div onClick={isOpenHandle} className="dropdown-button">
+          <img src="./images/menu.png" alt="menu-icon" />
+        </div>
+      </div>
+      {isOpen && (
+        <div className="dropdown-mobile slit-in-horizontal">
+          {navBarInfo.map((info, i) => (
+            <div className="link-box slit-in-horizontal" key={i}>
+              <NavLinks
+                title={info.title}
+                scrollLink={info.scrollLink}
+                isMobile={true}
+                isOpenHandle={isOpenHandle}
+              />
+            </div>
           ))}
         </div>
       )}

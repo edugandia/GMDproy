@@ -6,7 +6,7 @@ const NavLinks = props => {
     <div
       onClick={() => {
         ScrollToId(props.scrollLink);
-        props.isOpenHandle();
+        props.isOpenHandle && props.isOpenHandle();
       }}
     >
       <h5>{props.title}</h5>

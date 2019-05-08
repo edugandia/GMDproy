@@ -13,6 +13,7 @@ const Contact = props => {
             name={element.name}
             link={element.link}
             target={element.target}
+            key={i}
           />
         );
       })}

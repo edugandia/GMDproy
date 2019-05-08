@@ -11,6 +11,7 @@ const NavigationPoints = props => {
         <div
           onClick={() => props.handlePosition(i)}
           className={`point ${position === i && "active"}`}
+          key={i}
         />
       );
     }

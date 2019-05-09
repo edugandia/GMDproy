@@ -1,0 +1,10 @@
+.postcards-container {
+  width: 100%;
+  margin: 40px 0 60px 0;
+}
+
+@media (min-width: 768px) {
+  .postcards-container {
+    margin: 80px 0 80px 0;
+  }
+}

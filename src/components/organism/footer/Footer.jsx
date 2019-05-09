@@ -19,7 +19,7 @@ const Footer = () => {
   ];
 
   return (
-    <section>
+    <section className="footer">
       <Contact contactInfo={contactInfo} />
       <LegalLink />
     </section>

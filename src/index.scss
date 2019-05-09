@@ -60,6 +60,10 @@ h3 {
   font-size: 30px;
 }
 
+h4 {
+  font-size: 30px;  
+}
+
 p {
   font-family: "gomad";
   color: #525252;
@@ -79,8 +83,9 @@ span {
   h2 {
     font-size: 55px;
   }
-  p {
-    font-size: 19px;  
+  p,
+  a {
+    font-size: 19px;
     line-height: 26px;
   }
 }

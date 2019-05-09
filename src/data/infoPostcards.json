@@ -3,6 +3,7 @@
     "id": 0,
     "title": "Zonas",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, illo. Quaerat aut nobis, libero, culpa necessitatibus ipsam accusamus eveniet voluptatem consequuntur, voluptatibus laborum veritatis pariatur esse sint officiis eaque totam!",
+    "images": "./images/photos/portadapostales.jpg",
     "hasDownload": false,
     "downloadUrl": ""
   },
@@ -10,21 +11,24 @@
     "id": 1,
     "title": "Chueca/Justicia",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, illo. Quaerat aut nobis, libero, culpa necessitatibus ipsam accusamus eveniet voluptatem consequuntur, voluptatibus laborum veritatis pariatur esse sint officiis eaque totam!",
+    "images": "./images/photos/postalesjusticia.jpg",
     "hasDownload": true,
-    "downloadUrl": "./downloads/postal1.pdf"
+    "downloadUrl": "./images/downloads/postaljusticia.pdf"
   },
   {
     "id": 2,
     "title": "Chambarí/Almagro",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, illo. Quaerat aut nobis, libero, culpa necessitatibus ipsam accusamus eveniet voluptatem consequuntur, voluptatibus laborum veritatis pariatur esse sint officiis eaque totam!",
+    "images": "./images/photos/postalchamberi.jpg",
     "hasDownload": true,
-    "downloadUrl": "./downloads/postal1.pdf"
+    "downloadUrl": "./images/downloads/postalchamberi.pdf"
   },
   {
     "id": 3,
     "title": "Barrio de Salamanca",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, illo. Quaerat aut nobis, libero, culpa necessitatibus ipsam accusamus eveniet voluptatem consequuntur, voluptatibus laborum veritatis pariatur esse sint officiis eaque totam!",
+    "images": "./images/photos/postalsalamanca.jpg",
     "hasDownload": true,
-    "downloadUrl": "./downloads/postal1.pdf"
+    "downloadUrl": "./images/downloads/postalsalamanca.pdf"
   }
 ]

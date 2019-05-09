@@ -54,12 +54,12 @@ const Carousel = props => {
         lastPosition={lastPosition}
         handlePosition={handlePosition}
       />
+        {infoJSON[position].hasDownload && (
+          <DownloadIcon linkDownload={infoJSON[position].downloadUrl} />
+        )}
       <div className="image-container">
         <img src={infoJSON[position].images} alt={infoJSON[position].title} />
       </div>
-      {infoJSON[position].hasDownload && (
-        <DownloadIcon linkDownload={infoJSON[position].downloadUrl} />
-      )}
     </div>
   );
 };

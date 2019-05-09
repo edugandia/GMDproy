@@ -9,7 +9,7 @@ const NavigationArrows = props => {
       <div className="arrow">
         <img
           onClick={props.decrementPosition}
-          className={position === 0 && "disappear"}
+          className={position === 0 ? "disappear" : "appear"}
           src="./images/arrow-left.png"
           alt="left-arrow"
         />
@@ -17,7 +17,7 @@ const NavigationArrows = props => {
       <div className="arrow">
         <img
           onClick={props.incrementPosition}
-          className={position === lastPosition ? "disappear" : ""}
+          className={position === lastPosition ? "disappear" : "appear"}
           src="./images/arrow-right.png"
           alt="right-arrow"
         />

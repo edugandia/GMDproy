@@ -1,0 +1,23 @@
+.download-icon-container {
+  position: absolute;
+  right: 40px;
+  width: 120px;
+  height: 50px;
+  margin-top: 380px;
+  text-decoration: none;
+  background-color: #ececec;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  h6 {
+    color: #525252;
+    width: 50px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .download-icon-container {
+    right: 100px;
+  }
+}

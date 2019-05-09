@@ -42,14 +42,21 @@ const Carousel = props => {
         decrementPosition={decrementPosition}
       />
       <div className="text">
-        <h3>{infoJSON[position].title}</h3>
-        <p>{infoJSON[position].description}</p>
+        <h3>
+          <span>{infoJSON[position].title}</span>
+        </h3>
+        <p>
+          <span>{infoJSON[position].description}</span>
+        </p>
       </div>
       <NavigationPoints
         position={position}
         lastPosition={lastPosition}
         handlePosition={handlePosition}
       />
+      <div className="image-container">
+        <img src={infoJSON[position].images} alt={infoJSON[position].title} />
+      </div>
       {infoJSON[position].hasDownload && (
         <DownloadIcon linkDownload={infoJSON[position].downloadUrl} />
       )}

@@ -3,13 +3,15 @@
     "id": 0,
     "title": "Zonas",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, illo. Quaerat aut nobis, libero, culpa necessitatibus ipsam accusamus eveniet voluptatem consequuntur, voluptatibus laborum veritatis pariatur esse sint officiis eaque totam!",
+    "images": "./images/photos/portadazonas.jpg",
     "hasDownload": false,
-    "downloadUrl": "./downloads/postal1.pdf"
+    "downloadUrl": ""
   },
   {
     "id": 1,
     "title": "Chueca/Justicia",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, illo. Quaerat aut nobis, libero, culpa necessitatibus ipsam accusamus eveniet voluptatem consequuntur, voluptatibus laborum veritatis pariatur esse sint officiis eaque totam!",
+    "images": "./images/photos/zonajusticia.jpg",
     "hasDownload": false,
     "downloadUrl": "./downloads/postal1.pdf"
   },
@@ -17,6 +19,7 @@
     "id": 2,
     "title": "Chambarí/Almagro",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, illo. Quaerat aut nobis, libero, culpa necessitatibus ipsam accusamus eveniet voluptatem consequuntur, voluptatibus laborum veritatis pariatur esse sint officiis eaque totam!",
+    "images": "./images/photos/zonachamberi.jpg",
     "hasDownload": false,
     "downloadUrl": "./downloads/postal1.pdf"
   },
@@ -24,6 +27,7 @@
     "id": 3,
     "title": "Barrio de Salamanca",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, illo. Quaerat aut nobis, libero, culpa necessitatibus ipsam accusamus eveniet voluptatem consequuntur, voluptatibus laborum veritatis pariatur esse sint officiis eaque totam!",
+    "images": "./images/photos/zonasalamanca.jpg",
     "hasDownload": false,
     "downloadUrl": "./downloads/postal1.pdf"
   }

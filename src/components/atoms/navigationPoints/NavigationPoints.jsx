@@ -18,7 +18,11 @@ const NavigationPoints = props => {
     return points;
   };
 
-  return <div className="navigation-points-container">{pointPainter()}</div>;
+  return (
+    <div className="navigation-points-container">
+      <div className="points-container">{pointPainter()}</div>
+    </div>
+  );
 };
 
 export default NavigationPoints;

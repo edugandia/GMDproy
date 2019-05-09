@@ -1,9 +1,22 @@
-.point {
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
-  border: 1px solid black;
-  &.active {
-    background-color: black;
+.navigation-points-container {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: 465px;
+  .points-container {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    .point {
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      border: 1px solid #ececec;
+      cursor: pointer;
+      &.active {
+        background-color: #ececec;
+      }
+    }
   }
 }

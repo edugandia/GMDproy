@@ -24,12 +24,16 @@ const Header = () => {
         </div>
         <div className="separator-bar" />
         <div className="text">
-          <h3>Titular</h3>
+          <h3>
+            <span>Titular</span>
+          </h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
-            nam, similique asperiores et cum mollitia sapiente ipsam eligendi
-            magni earum obcaecati cupiditate maxime! Architecto rem voluptas
-            nihil minus labore illo!
+            <span>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Recusandae nam, similique asperiores et cum mollitia sapiente
+              ipsam eligendi magni earum obcaecati cupiditate maxime! Architecto
+              rem voluptas nihil minus labore illo!
+            </span>
           </p>
         </div>
       </div>

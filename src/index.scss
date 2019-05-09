@@ -34,13 +34,16 @@ h2 {
   font-family: "gomad-title";
   color: #8f8d92;
   font-weight: 100;
+  margin: 0;
 }
 
 h1 {
+  font-size: 76px;
   color: #5e6a55;
 }
 
 h2 {
+  font-size: 41px;
   color: #79a86b;
 }
 
@@ -53,8 +56,27 @@ h6 {
   font-weight: 100;
 }
 
+h3 {
+  font-size: 30px;
+}
+
 p {
   font-family: "gomad";
   color: #525252;
-  margin: 8px 0;
+  margin: 0;
+  line-height: 25px;
+}
+
+span {
+  background-color: #ececec;
+  padding: 1px 0;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 102px;
+  }
+  h2 {
+    font-size: 55px;
+  }
 }

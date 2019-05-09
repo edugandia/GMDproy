@@ -1,6 +1,27 @@
-.tag {
-  opacity: 0.3;
-  &.active-tag {
-    opacity: 1;
+.tab-selector {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  .tab {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    opacity: 0.3;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.5;
+    }
+    &.active-tab {
+      opacity: 1;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .tab-selector {
+    .tab {
+      justify-content: flex-start;
+      width: auto;
+    }
   }
 }

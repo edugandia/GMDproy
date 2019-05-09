@@ -5,15 +5,17 @@ const TabSelector = props => {
   const { infoJSON, idProduct } = props;
 
   return (
-    <div>
-      {infoJSON.map((tag, i) => {
+    <div className="tab-selector">
+      {infoJSON.map((tab, i) => {
         return (
           <div
             onClick={() => props.idProductHandle(i)}
-            className={`tag ${idProduct === i && "active-tag"}`}
+            className={`tab ${idProduct === i && "active-tab"}`}
             key={i}
           >
-            {tag.title}
+            <h4>
+              <span>{tab.title}</span>
+            </h4>
           </div>
         );
       })}

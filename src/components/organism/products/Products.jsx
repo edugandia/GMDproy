@@ -7,7 +7,9 @@ const Products = () => {
   return (
     <section id="products-container">
       <div className="title">
-        <h2>¿Qué ofrecemos?</h2>
+        <h2>
+          <span>¿Qué ofrecemos?</span>
+        </h2>
       </div>
       <ProductsViewer infoJSON={ProductsJSON} />
     </section>

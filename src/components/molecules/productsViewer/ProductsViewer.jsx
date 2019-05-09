@@ -27,7 +27,11 @@ const ProductsViewer = props => {
           idProductHandle={idProductHandle}
         />
         <div className="text">
-          <div className="description">{infoJSON[idProduct].description}</div>
+          <div className="description">
+            <p>
+              <span>{infoJSON[idProduct].description}</span>
+            </p>
+          </div>
         </div>
       </div>
     </div>

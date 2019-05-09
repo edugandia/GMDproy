@@ -1,14 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.scss";
+import ReactPlayer from "react-player";
 
 const Header = () => {
+  const [isPlaying, setIsPlaying] = useState(true);
+
   return (
     <header className="header-container">
-      <div className="video-container">
-        <iframe
-          src="http://www.youtube.com/embed/v=v4WNgVKyjUI?rel=0&amp;autoplay=1"
-          title="video-header"
-          frameBorder="0"
+      <div onClick={() => setIsPlaying(!isPlaying)} className="video-container">
+        <ReactPlayer
+          url="./images/video/gomad_panoramico.mp4"
+          playing={isPlaying}
+          muted={true}
+          width="100%"
+          height="100%"
+          loop={true}
         />
       </div>
       <div className="text-container">

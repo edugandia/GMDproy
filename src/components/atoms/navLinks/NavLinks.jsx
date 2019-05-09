@@ -1,5 +1,6 @@
 import React from "react";
 import ScrollToId from "../../../utils/ScrollToId";
+import './NavLinks.scss';
 
 const NavLinks = props => {
   return (
@@ -8,6 +9,7 @@ const NavLinks = props => {
         ScrollToId(props.scrollLink);
         props.isOpenHandle && props.isOpenHandle();
       }}
+      className="nav-links"
     >
       <h5>{props.title}</h5>
     </div>

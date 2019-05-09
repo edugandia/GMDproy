@@ -1,0 +1,12 @@
+.nav-links {
+  cursor: pointer;
+  h5 {
+    transition: 0.4s;
+    margin: 0;
+  }
+  &:hover {
+    h5 {
+      color: #79a86b;
+    }
+  }
+}

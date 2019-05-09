@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   .navbar-box {
     height: 60px;
@@ -26,6 +27,8 @@
   }
   .dropdown-mobile {
     width: 100%;
+    transition: 1s;
+
     .link-box {
       padding: 0 5%;
       width: 100%;
@@ -60,8 +63,8 @@
 }
 
 .slit-in-horizontal {
-  -webkit-animation: slit-in-horizontal 0.15s ease-out both;
-  animation: slit-in-horizontal 0.15s ease-out both;
+  -webkit-animation: slit-in-horizontal 0.3s ease-out both;
+  animation: slit-in-horizontal 0.3s ease-out both;
 }
 
 /* ----------------------------------------------

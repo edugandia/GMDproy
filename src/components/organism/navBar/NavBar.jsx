@@ -37,7 +37,7 @@ const NavBar = () => {
       {isOpen && (
         <div className="dropdown-mobile slit-in-horizontal">
           {navBarInfo.map((info, i) => (
-            <div className="link-box slit-in-horizontal" key={i}>
+            <div className="link-box" key={i}>
               <NavLinks
                 title={info.title}
                 scrollLink={info.scrollLink}

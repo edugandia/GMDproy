@@ -5,7 +5,9 @@ import "./LegalLink.scss";
 const LegalLink = () => {
   return (
     <div className="legal-link-container">
-      <Link to="/aviso-legal">AVISO LEGAL / PRIVACIDAD / COOKIES</Link>
+      <Link to="/aviso-legal">
+        <p>AVISO LEGAL / PRIVACIDAD / COOKIES</p>
+      </Link>
     </div>
   );
 };

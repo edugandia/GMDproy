@@ -1,5 +1,18 @@
 .legal-link-container {
+  width: 80%;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
   a {
-    color: #fff;
+    text-decoration: none;
+    p {
+      font-size: 12px;
+      color: #fff;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .legal-link-container {
+    width: auto;
   }
 }

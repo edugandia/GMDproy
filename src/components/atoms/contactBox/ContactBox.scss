@@ -1,5 +1,12 @@
 .contact-box-container {
-  a {
-    color: #fff;
+  a,
+  div {
+    text-decoration: none;
+    p {
+      font-size: 16px;
+      margin: 5px 0;
+      color: #fff;
+      cursor: pointer;
+    }
   }
 }

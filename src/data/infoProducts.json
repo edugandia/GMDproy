@@ -9,12 +9,12 @@
     "id": 1,
     "title": "Inmuebles en rentabilidad",
     "description": "Pipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, illo. Quaerat aut nobis, libero, culpa necessitatibus ipsam accusamus eveniet voluptatem consequuntur, voluptatibus laborum veritatis pariatur esse sint officiis eaque totam!",
-    "image": "./images/photos/web_queofrecemos.jpg"
+    "image": "./images/photos/web_queofrecemos1.jpg"
   },
   {
     "id": 2,
     "title": "Asesoramiento",
     "description": "Adipisicing elit. Assumenda, illo. Quaerat aut nobis, libero, culpa necessitatibus ipsam accusamus eveniet voluptatem consequuntur, voluptatibus laborum veritatis pariatur esse sint officiis eaque totam!",
-    "image": "./images/photos/web_queofrecemos.jpg"
+    "image": "./images/photos/web_queofrecemos2.jpg"
   }
 ]

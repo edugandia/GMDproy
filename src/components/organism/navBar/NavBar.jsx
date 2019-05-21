@@ -6,7 +6,7 @@ const NavBar = () => {
   const navBarInfo = [
     { title: "NUESTRAS ZONAS", scrollLink: "areas-container" },
     { title: "¿QUÉ OFRECEMOS?", scrollLink: "products-container" },
-    { title: "CONTACTO", scrollLink: "footer-container" }
+    { title: "CONTACTO", scrollLink: "footer" }
   ];
 
   const [isOpen, setIsOpen] = useState(false);

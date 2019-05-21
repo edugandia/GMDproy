@@ -4,9 +4,8 @@ import Contact from "../../molecules/contact";
 import LegalLink from "../../atoms/legalLink";
 
 const Footer = () => {
-  
   return (
-    <section className="footer">
+    <section id="footer">
       <Contact />
       <LegalLink />
     </section>

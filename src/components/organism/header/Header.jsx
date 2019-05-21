@@ -1,20 +1,34 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Header.scss";
 import ReactPlayer from "react-player";
 
 const Header = () => {
   const [isPlaying, setIsPlaying] = useState(true);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    mobileDeviceDetector();
+  });
+
+  const mobileDeviceDetector = () => {
+    const currentWidth = window.innerWidth;
+    currentWidth < 1025 && setIsMobile(true);
+  };
 
   return (
     <header className="header-container">
       <div onClick={() => setIsPlaying(!isPlaying)} className="video-container">
         <ReactPlayer
-          url="./images/video/gomad_panoramico.mp4"
+          url={
+            isMobile
+              ? "http://gomadinvestment.com/videos/Gomad_video.mp4"
+              : "http://gomadinvestment.com/videos/gomad_panoramico.mp4"
+          }
           playing={isPlaying}
           muted={true}
           width="100%"
           height="100%"
-          loop={true}
+          onEnded={() => setIsPlaying(false)}
         />
       </div>
       <div className="text-container">

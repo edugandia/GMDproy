@@ -21,7 +21,7 @@ export default class ContactForm extends Component {
     const form = event.target;
     const data = new FormData(form);
 
-    fetch("http://tacubayaconsulting.com/gomad/contacto/", {
+    fetch("http://gomadinvestment.com/contacto/", {
       method: "POST",
       body: data
     }).then(response => {
